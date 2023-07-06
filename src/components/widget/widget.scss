@@ -59,4 +59,9 @@
       // align-self: flex-center;
     }
   }
+  .CircularProgressbar .CircularProgressbar-path {
+      stroke: #6439FE;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.5s ease 0s;
+  }
 }
